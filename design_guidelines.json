@@ -1,0 +1,162 @@
+{
+  "identity": {
+    "name": "Sector-17 Store",
+    "persona": "E1: The Anti-AI Designer",
+    "tone": "Trustworthy, Energetic, Local, Modern",
+    "vibe": "Concrete & Color - Reflecting the Le Corbusier architecture of Chandigarh with vibrant market life."
+  },
+  "typography": {
+    "headings": {
+      "family": "Outfit, sans-serif",
+      "weights": ["500", "600", "700"],
+      "usage": "Use for all H1-H6. Tight tracking (-0.02em).",
+      "cdn_import": "@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');"
+    },
+    "body": {
+      "family": "Plus Jakarta Sans, sans-serif",
+      "weights": ["400", "500", "600"],
+      "usage": "Use for paragraphs, inputs, buttons. Normal tracking.",
+      "cdn_import": "@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');"
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "DEFAULT": "#2563EB",
+        "foreground": "#FFFFFF",
+        "description": "Electric Royal Blue - Trust & Technology"
+      },
+      "secondary": {
+        "DEFAULT": "#F97316",
+        "foreground": "#FFFFFF",
+        "description": "Chandigarh Sunset Orange - Energy & Action"
+      },
+      "background": {
+        "light": "#F8FAFC",
+        "dark": "#0F172A",
+        "description": "Slate 50 (Light) / Slate 900 (Dark) - Concrete Vibe"
+      },
+      "surface": {
+        "light": "#FFFFFF",
+        "dark": "#1E293B",
+        "description": "Pure White / Slate 800"
+      },
+      "muted": {
+        "light": "#F1F5F9",
+        "dark": "#334155"
+      }
+    },
+    "gradients": {
+      "hero": "bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900",
+      "accent": "bg-gradient-to-r from-blue-600 to-blue-500"
+    }
+  },
+  "visual_enhancers": {
+    "radius": "0.75rem",
+    "shadows": {
+      "card": "0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03)",
+      "hover": "0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02)",
+      "glow": "0 0 20px rgba(37, 99, 235, 0.3)"
+    },
+    "glassmorphism": {
+      "light": "bg-white/70 backdrop-blur-xl border-white/20",
+      "dark": "bg-slate-900/70 backdrop-blur-xl border-white/10"
+    },
+    "borders": "1px solid var(--border)"
+  },
+  "layout_strategies": {
+    "public_home": {
+      "type": "Tetris Grid",
+      "description": "Asymmetrical grid for discovery. Mix wide hero banners with square shop cards.",
+      "classes": "grid grid-cols-1 md:grid-cols-12 gap-6"
+    },
+    "admin_dashboard": {
+      "type": "Control Room Grid",
+      "description": "Dense, data-heavy layout. Sidebar + Main Content Area.",
+      "classes": "grid grid-cols-1 md:grid-cols-4 gap-4"
+    },
+    "spacing": {
+      "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      "section": "py-16 md:py-24"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8 rounded-full font-medium transition-all hover:scale-105 active:scale-95 shadow-lg shadow-primary/20",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/90 h-11 px-8 rounded-full font-medium transition-all hover:scale-105 active:scale-95",
+      "outline": "border-2 border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 px-8 rounded-full font-medium transition-all"
+    },
+    "cards": {
+      "shop": "group relative overflow-hidden rounded-xl border bg-card text-card-foreground shadow-sm transition-all hover:shadow-xl hover:-translate-y-1",
+      "product": "rounded-lg border bg-card text-card-foreground shadow-sm transition-all hover:shadow-md"
+    },
+    "inputs": {
+      "search": "h-14 pl-12 pr-4 rounded-full border-2 border-slate-200 bg-white/50 backdrop-blur-sm focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all text-lg shadow-sm"
+    }
+  },
+  "image_urls": {
+    "hero": [
+      {
+        "url": "https://images.unsplash.com/photo-1633145910107-2875e33d8185?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwxfHxDaGFuZGlnYXJoJTIwTGUlMjBDb3JidXNpZXIlMjBjb25jcmV0ZSUyMGFyY2hpdGVjdHVyZSUyMHBsYXphfGVufDB8fHx8MTc2NzExOTQ0OHww&ixlib=rb-4.1.0&q=85",
+        "description": "Sector 17 Plaza Architecture (Concrete Vibe)",
+        "category": "hero_background"
+      }
+    ],
+    "shops": [
+      {
+        "url": "https://images.unsplash.com/photo-1571854003494-ab1b14c21249?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjByZXRhaWwlMjBzdG9yZSUyMGludGVyaW9yJTIwY2xvdGhpbmclMjBlbGVjdHJvbmljcyUyMGJvb2tzfGVufDB8fHx8MTc2NzExOTQzM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Modern Clothing Store Interior",
+        "category": "shop_thumbnail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1660224319984-4af12c1a469b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjByZXRhaWwlMjBzdG9yZSUyMGludGVyaW9yJTIwY2xvdGhpbmclMjBlbGVjdHJvbmljcyUyMGJvb2tzfGVufDB8fHx8MTc2NzExOTQzM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Bookstore / Cafe Interior",
+        "category": "shop_thumbnail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1740064038378-b3b049c98c39?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjByZXRhaWwlMjBzdG9yZSUyMGludGVyaW9yJTIwY2xvdGhpbmclMjBlbGVjdHJvbmljcyUyMGJvb2tzfGVufDB8fHx8MTc2NzExOTQzM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "General Retail Store",
+        "category": "shop_thumbnail"
+      }
+    ],
+    "products": [
+      {
+        "url": "https://images.unsplash.com/photo-1640720707320-af5502f2a3f5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjBzdHJlZXQlMjBmb29kJTIwbW9kZXJuJTIwcHJlc2VudGF0aW9ufGVufDB8fHx8MTc2NzExOTQ1MXww&ixlib=rb-4.1.0&q=85",
+        "description": "Food Item",
+        "category": "product_thumbnail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1758525224177-1b47fb784ebb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwxfHxzaG9wcGluZyUyMGJhZ3MlMjBoYXBweSUyMHBlb3BsZSUyMHVyYmFufGVufDB8fHx8MTc2NzExOTQzNXww&ixlib=rb-4.1.0&q=85",
+        "description": "Happy Shoppers (Lifestyle)",
+        "category": "marketing"
+      }
+    ]
+  },
+  "motion": {
+    "transitions": "transition-all duration-300 ease-out",
+    "hover_lift": "hover:-translate-y-1 hover:shadow-lg",
+    "page_transition": {
+      "initial": { "opacity": 0, "y": 20 },
+      "animate": { "opacity": 1, "y": 0 },
+      "exit": { "opacity": 0, "y": -20 }
+    }
+  },
+  "instructions_to_main_agent": [
+    "1. SETUP: Install 'lucide-react' for icons. Use 'Outfit' font for headings and 'Plus Jakarta Sans' for body.",
+    "2. THEME: Implement the 'Concrete & Color' theme. Use Slate-50/900 for backgrounds, not pure white/black.",
+    "3. COMPONENTS: Customize Shadcn components. Remove default rounded-md and use rounded-xl. Increase padding inside cards.",
+    "4. SEARCH: The search bar is the HERO. Make it big, centered, and floating on the home page.",
+    "5. CARDS: Shop cards should be image-first. Product cards should be clean and price-focused.",
+    "6. ADMIN: Keep the admin dashboard dense ('Control Room' grid) but use the same font family for consistency.",
+    "7. IMAGES: Use the provided Unsplash URLs for mock data. Do not use placeholders.",
+    "8. TESTING: Add data-testid to all interactive elements (buttons, inputs, cards)."
+  ],
+  "universal_guidelines": [
+    "Do not use generic centered layouts.",
+    "Create depth through layered design elements.",
+    "Use glass-morphism effects with backdrop filters.",
+    "Every interaction needs micro-animations.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "Never use AI assistant Emoji characters."
+  ]
+}
